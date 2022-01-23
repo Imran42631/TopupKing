@@ -1,0 +1,413 @@
+@media only screen and (max-width:600px) {
+  body {
+    background: url(mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+  }
+
+  
+hr {
+  color: black;
+  border: 1px solid black
+}
+
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.lname {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 6vh;
+  align-items: center;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  text-shadow: 1px 2px 0px black,
+    1px 1px 5px rgb(177, 177, 177);
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+.desktop{
+  display: none;
+}
+
+.img {
+  height: 25vw;
+  width: 25vw;
+  display: flex;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .5;
+  }
+}
+.aboutpara{
+  text-shadow:2px 2px 1px black, 0px 0px 10px white;
+  text-align:center;
+}
+#about{
+  font-family: tahoma;
+  text-align: center;
+  color:white;
+  font-size: 7vh;
+  text-shadow: 3px 3px 1px rgb(46, 46, 46);
+}
+.logo {
+  display: flex;
+}
+
+li {
+  background-color: rgba(0, 0, 0, 0.39);
+  text-align: center;
+  margin: 5px 0;
+  padding: 10px;
+  transition-duration: 0.5s;
+  user-select: none;font-variant: small-caps;
+}
+
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.931);
+}
+
+.topup {
+  color: rgb(218, 218, 218);
+  font-size: 11vw;
+  font-variant: small-caps;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 0px black,1px 1px 10px rgb(121, 121, 121), 1px 1px 10px rgb(255, 255, 255);
+  text-align: center;
+}
+
+p {
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 20px;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+
+span {
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: verdana;
+  margin-left: 10px;
+
+}
+.gohome {
+  padding: 7px 20px;
+  background-color: transparent;
+  outline: none;
+  font-family: sans-serif;
+  border-radius: 7px;
+  border: 1px solid #008cfa;
+  color: aliceblue;
+  font-size: 25px;
+  transition-duration: 0.5s;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.gohome:hover {
+  
+  background: #1c73b6;
+}
+
+.button {
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid #008cfa;
+  color: aliceblue;
+  transition-duration: 0.5s;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {
+  color: black;
+  background: #008cfa;
+}
+
+/* card design  start*/
+/* .card1 */
+.card1, .card2 ,.card3, .card4, .card5, .card6{
+  border-radius: 10px;
+  
+} 
+.card1 {
+  box-shadow: 0 4px 10px 0 rgb(0, 0, 0), inset 10px 10px 100px rgb(136, 136, 136);
+  max-width: 200px;
+  margin: 10px auto;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+  text-shadow: 1px 1px 10px white, -1px -1px 10px white;
+}
+
+.price {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+img {
+  height: 100px;
+}
+
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card1 button:hover {
+  opacity: 0.7;
+}
+
+/* card1 */
+/* .card2 */
+.card2 {
+  box-shadow: 0 4px 10px 0 rgb(0, 0, 0), inset 10px 10px 100px rgb(136, 136, 136);
+  max-width: 200px;
+  margin: 10px auto;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+  text-shadow: 1px 1px 10px white, -1px -1px 10px white;
+}
+
+.card2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card2 button:hover {
+  opacity: 0.7;
+}
+
+/* card2 */
+/* card3 */
+.card3 {
+  box-shadow: 0 4px 10px 0 rgb(0, 0, 0), inset 10px 10px 100px rgb(136, 136, 136);
+  max-width: 200px;
+  margin: 10px auto;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+  text-shadow: 1px 1px 10px white, -1px -1px 10px white;
+}
+
+.card3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card3 button:hover {
+  opacity: 0.7;
+}
+
+/* card3 */
+/* card4 */
+.card4 {
+  box-shadow: 0 4px 10px 0 rgb(0, 0, 0), inset 10px 10px 100px rgb(136, 136, 136);
+  max-width: 200px;
+  margin: 10px auto;
+  padding: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 10px white, -1px -1px 10px white;
+  font-family: arial;
+}
+
+.card4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card4 button:hover {
+  opacity: 0.7;
+}
+
+/* card4 */
+/* card5 */
+.card5 {
+  box-shadow: 0 4px 10px 0 rgb(0, 0, 0), inset 10px 10px 100px rgb(136, 136, 136);
+  max-width: 200px;
+  margin: 10px auto;
+  text-shadow: 1px 1px 10px white, -1px -1px 10px white;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+}
+
+.card5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card5 button:hover {
+  opacity: 0.7;
+}
+
+/* card 5 */
+/* card 6 */
+.card6 {
+  box-shadow: 0 4px 10px 0 rgb(0, 0, 0), inset 10px 10px 100px rgb(136, 136, 136);
+  max-width: 200px;
+  margin: 10px auto;
+  padding: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: arial;
+  text-shadow: 1px 1px 10px white, -1px -1px 10px white;
+}
+
+.card6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card6 button:hover {
+  opacity: 0.7;
+}
+
+/* card 6 */
+/* card deisgn end */
+
+
+/* contact start */
+.form{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 300px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.caption{
+  font-family: lucida sans;
+  font-size: 25px;
+}
+input[type='text'], input[type='email']{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 210px;
+  margin-bottom: 15px;
+}
+#message{
+  resize: none;
+  height: 50px;
+  
+}
+label{
+  font-family: sans-serif;
+  font-weight: 560;
+}
+::placeholder{
+  color: black;
+  font-variant: small-caps;
+  letter-spacing: 1.4px;
+}
+input[type='submit']{
+  padding: 10px 90px;
+  background-color: #008cfa;
+  border: 1px solid #008cfa;
+  border-radius:10px ;
+  margin-top: 10px;
+}
+
+#message::placeholder{
+  font-family: sans-serif;
+  
+}
+textarea{
+  border: 1;
+  outline: none;
+}
+textarea:hover{
+  border: 1px solid black;
+
+}
+#submitbtn:hover{
+  background-color:#006abb;
+  color: white;
+  
+}
+/* contact end */

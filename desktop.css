@@ -1,0 +1,18 @@
+@media only screen and (min-width:600px){
+    :before{
+        content: "This Site Is Not Well Optimized For Desktop Version. Please Use Mobile Version. Thanks";
+        font-family:sans-serif;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        font-size: 30px;
+        font-weight: 700;
+        border: 1px solid black;
+    }
+
+    body{
+ display: none;
+    }
+
+}
